@@ -4,7 +4,7 @@ I created this repo to contain scripts and configuration files to configure easi
 
 ## Initialize ssh-server in the toolbox
 
-This script will try to install `openssh-server` package via `dnf`, modify the `sshd_config`(ssh-server), `.ssh/config`("client") and start the server.
+This script (made by [Juraj Fiala](https://jurf.github.io/2020/03/24/vscode-toolbox/)) will try to install `openssh-server` package via `dnf`, modify the `sshd_config`(ssh-server), `.ssh/config`("client") and start the server.
 
 Authorize execution
 
