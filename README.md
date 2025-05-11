@@ -28,19 +28,7 @@ Open VSCodium, VSCode… And connect via ssh to the hostname `toolbox-TOOLBOX-NA
 
 If you want to use the toolbox's terminal instead of the local terminal, or you have installed the flatpak version of VSCodium, for example (you will see an error if you try to open the terminal).  
 
-Open the remote settings JSON via `F1` and `Preferences: Open Remote Settings (JSON)(SSH: toolbox-TOOLBOX-NAME) ` and add these lines :
-
-```json
-{
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "/usr/bin/bash",
-            "args": []
-        }
-    }
-}
-```
+Open the remote settings JSON via `F1` and `Preferences: Open Remote Settings (JSON)(SSH: toolbox-TOOLBOX-NAME) ` and add [these lines](./settings.json).
 
 ## Next ?
 
