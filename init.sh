@@ -31,7 +31,6 @@ echo "
 Host toolbox-$NAME
     HostName localhost
     Port $PORT
-    # LocalForward 8000 localhost:8000 port forwarding symfony server.
 " >> ~/.ssh/config
 
 # Démarrer le serveur SSH
